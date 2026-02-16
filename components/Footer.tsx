@@ -51,12 +51,12 @@ export default function Footer() {
 
             <nav className="flex flex-col gap-5 text-sm font-medium">
               {[
-                "Contact",
-                "Investor Login",
-                "Terms of Use",
-                "Privacy Notice",
-                "Disclaimers",
-                "Disclosures",
+                { label: "Contact", href: "/contact" },
+                { label: "Who we are", href: "/who-we-are" },
+                { label: "Terms of Use", href: "/terms-and-conditions" },
+                { label: "Privacy Notice", href: "/privacy-policy" },
+                // { label: "Disclaimers", href: "#" },
+                { label: "Disclosures", href: "/disclosures" },
               ].map((item, i) => (
                 <motion.div
                   key={i}
@@ -64,10 +64,10 @@ export default function Footer() {
                   transition={{ type: "spring", stiffness: 250 }}
                 >
                   <Link
-                    href="#"
+                    href={item.href}
                     className="relative text-white/60 hover:text-white transition duration-300 group"
                   >
-                    {item}
+                    {item.label}
                     <span className="absolute left-0 -bottom-1 w-0 h-[1px] bg-red-500 transition-all duration-300 group-hover:w-full" />
                   </Link>
                 </motion.div>

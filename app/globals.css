@@ -19,7 +19,7 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
-    --color-red-500: #fb7185; /* Lighter rose for dark mode */
+    --color-primary: #fb7185; /* Lighter rose for dark mode */
     --color-secondary: #ededed;
   }
 }
