@@ -36,7 +36,7 @@ export default function NavBar() {
       <div className="max-w-7xl mx-auto px-8 py-6 flex justify-between items-center">
         {/* Logo */}
         <div className="text-white text-2xl font-bold tracking-widest">
-          XYZ
+          Aureaoctave Partners
         </div>
         {/* Navigation */}
         <nav className="hidden md:flex items-center gap-10">
@@ -46,11 +46,10 @@ export default function NavBar() {
               <Link
                 key={item.name}
                 href={item.href}
-                className={`relative text-sm tracking-widest transition-colors duration-300 ${
-                  isActive
-                    ? "text-white"
-                    : "text-gray-400 hover:text-white"
-                }`}
+                className={`relative text-sm tracking-widest transition-colors duration-300 ${isActive
+                  ? "text-white"
+                  : "text-gray-400 hover:text-white"
+                  }`}
               >
                 {item.name}
                 {/* Active underline */}

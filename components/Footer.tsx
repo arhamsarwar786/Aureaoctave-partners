@@ -34,11 +34,11 @@ export default function Footer() {
           {/* Left */}
           <motion.div variants={fadeUp} className="flex flex-col gap-8">
             <span className="text-3xl font-semibold tracking-[0.4em] text-red-500">
-              XYZ
+              Aureaoctave Partners
             </span>
 
             <p className="text-sm text-white/50 leading-relaxed max-w-sm">
-              XYZ UK Advisers LLP is authorised and regulated by the
+              Aureaoctave Partners LLP is authorised and regulated by the
               Financial Conduct Authority (Firm Reference Number 1016286).
             </p>
           </motion.div>
@@ -107,7 +107,7 @@ export default function Footer() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="border-t border-white/10 mt-24 pt-10 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-white/40"
         >
-          <p>© 2026 XYZ Capital Partners. All rights reserved.</p>
+          <p>© 2026 Aureaoctave Partners. All rights reserved.</p>
           <p className="tracking-wide">Built with long-term vision.</p>
         </motion.div>
 
