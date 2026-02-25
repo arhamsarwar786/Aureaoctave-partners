@@ -65,7 +65,7 @@ export default function ContactPage() {
       await emailjs.send(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
-        { name: form.name, email: form.email, message: form.message },
+        { name: form.name, email: form.email, message: form.message, reference_url: window.location.origin },
         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
       );
       setStatus("success");

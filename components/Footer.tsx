@@ -33,7 +33,8 @@ export default function Footer() {
 
           {/* Left */}
           <motion.div variants={fadeUp} className="flex flex-col gap-8">
-            <span className="text-3xl font-semibold tracking-[0.4em] text-[#3AF5C4]">
+            <span className="text-3xl font-semibold tracking-[0.4em] text-[#3AF5C4] flex  items-center gap-2">
+              <img src="/logo.png" alt="Logo" className="w-12 h-10" />
               Aurea Octave Partners
             </span>
 

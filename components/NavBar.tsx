@@ -35,7 +35,8 @@ export default function NavBar() {
     >
       <div className="max-w-7xl mx-auto px-8 py-6 flex justify-between items-center">
         {/* Logo */}
-        <div className="text-white text-2xl font-bold tracking-widest">
+        <div className="text-white text-2xl font-bold tracking-widest flex items-center gap-2">
+          <img src="/logo.png" alt="Logo" className="w-12 h-10" />
           Aurea Octave Partners
         </div>
         {/* Navigation */}
