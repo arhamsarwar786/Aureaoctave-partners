@@ -44,7 +44,7 @@ const inquiries = [
   },
 ];
 
-// ─── Contact Info ──────────────────────────────────────────────────────────────
+
 const contactDetails = [
   { label: "Email", value: "contact@aureaoctave.com", href: "mailto:contact@aureaoctave.com", icon: "✉️" },
   { label: "Location", value: "USA", href: null, icon: "📍" },
