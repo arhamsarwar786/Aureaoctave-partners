@@ -88,7 +88,7 @@ export default function ContactPage() {
       <section className="relative h-[75vh] flex items-center justify-center overflow-hidden bg-[#0E1319]">
         {/* Background image */}
         <img
-          src="https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1600&q=80"
+          src="/hero-second.png"
           className="absolute inset-0 w-full h-full object-cover opacity-20 scale-105"
           alt="Business discussion"
         />
